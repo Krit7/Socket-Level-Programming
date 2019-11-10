@@ -26,7 +26,7 @@ def compress(uncompressed):
 def file_server():
 
 	print("File Transfer Server")
-	host = ''
+	host = '' # empty string makes the server listen to requests coming from other computers on the network 
 	port = 4000
 
 	s = socket.socket()

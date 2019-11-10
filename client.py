@@ -36,7 +36,7 @@ def file_client():
 
 	BUF_SIZE = 1024
 	print('File Transfer Client')
-	host = socket.gethostbyname('')    
+	host = socket.gethostbyname('')  # Enter the host address of the of the system on which the server is running  
 	port = 4000						
 
 	s = socket.socket()
